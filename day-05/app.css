@@ -1,0 +1,21 @@
+p {  /* element selector */
+    background-color: dodgerblue;
+    color: aliceblue;
+}
+
+#biggerDiv {  /* id selector */
+    width: 300px;
+    height: 300px;
+    background-color: red;
+}
+
+.btnSmall { /* class selector */
+    width: 300px;
+    height: 80px;
+    background-color: brown;
+    color: white;
+}
+
+.large {
+    font-size: 30px;
+}
