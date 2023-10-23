@@ -1,0 +1,25 @@
+/* .box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+} */
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    /* font-size: 1rem; */
+}
+
+.box {
+    width: 30%;
+    height: 10%;
+    background-color: red;
+    font-size: 0.8em;
+}
+.elSz {
+    font-size: 1em;
+}
+
+.rtElSz {
+    font-size: 3rem;
+}
