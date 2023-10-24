@@ -1,0 +1,16 @@
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.box {
+    /* background-color: antiquewhite; */ /* named model */
+
+    /* background-color: #b3357e; */ /* rrggbb -> hex model */
+
+    /* background-color: rgb(255, 0, 255); */
+
+    /* background-color: rgba(255, 0, 255, 0); */
+
+    
+}
