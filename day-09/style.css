@@ -3,9 +3,25 @@ html, body {
     height: 100vh;
 }
 
-div {
-
+.box {
     width: 20%;
     height: 20%;
-    background-color: hsla(300, 40% , 50%, 1);
+    background-color: hsla(300, 40% , 50%, 0.6);
+}
+.nrml {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+    font-weight: 200;
+    font-style: oblique 10deg;
+}
+
+@font-face {
+    font-family: 'MyFont';
+    src: url('./fnt.otf');
+}
+
+.fancy {
+    font-family: 'MyFont', Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    padding: 1em;
 }
