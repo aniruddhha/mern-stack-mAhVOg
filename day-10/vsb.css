@@ -10,4 +10,5 @@
 
 .hide-it {
     visibility: hidden;
+    display: block;
 }
