@@ -1,0 +1,19 @@
+
+.container {
+    width: 200px;
+    height: 100px;
+    border: 1px solid red;
+    overflow:auto;
+}
+
+.container::-webkit-scrollbar {
+    width: 15px;
+}
+
+.container::-webkit-scrollbar-track {
+    background-color: red;
+}
+
+.container::-webkit-scrollbar-thumb {
+    background-color: blue;
+}
