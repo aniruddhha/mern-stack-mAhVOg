@@ -1,0 +1,9 @@
+img {
+    width: 100px;
+    height: 200px;
+    background-color: gainsboro;
+    /* object-fit: contain; */
+    /* object-fit: cover; */
+    /* object-fit: none; */
+    object-fit: scale-down;
+}
