@@ -1,0 +1,33 @@
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+div {
+    width: 20%;
+    height: 20%;
+    padding: 30px;
+    border: 10px dashed red;
+
+    background-image: url('./sr.webp');
+    background-color: aliceblue;
+
+    /* background-size: 100px 100px; */
+    /* background-repeat: repeat; */
+    /* background-repeat: repeat-x;
+    background-repeat: repeat-y; */
+
+    /* background-repeat: no-repeat;
+    background-attachment: fixed; */
+
+ 
+    /* background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+    /* background-position: center; */
+
+    background-size: 100px 200px;
+    background-repeat: round;
+    background-origin: border-box;
+
+}
