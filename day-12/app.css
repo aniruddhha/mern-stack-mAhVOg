@@ -1,0 +1,40 @@
+
+.gd-txt{
+    padding: 1em;
+}
+
+.top-1 {
+    margin: 1em;
+}
+
+.p-2 {
+    padding: 0.3em;
+}
+
+.faint-gray {
+    background-color: gainsboro;
+}
+
+.txt01 {
+    color: white;
+    background-color: black;
+}
+
+.txt02 {
+    /* text-align: start; */
+    text-align: center;
+    vertical-align: text-bottom;
+}
+
+.txt03 {
+    width: 300px;
+    height: 300px;
+    text-align: justify;
+    overflow: auto;
+}
+.txt04 {
+    vertical-align: text-bottom;
+}
+.p-cont {
+    text-align: center;
+}
