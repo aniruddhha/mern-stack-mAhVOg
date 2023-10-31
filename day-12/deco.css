@@ -1,0 +1,8 @@
+.deco-01 {
+    text-decoration: underline overline red double 3px;
+}
+
+.deco-02 {
+    text-decoration-line: line-through;
+    text-decoration-color: red;
+}

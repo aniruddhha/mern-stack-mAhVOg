@@ -33,8 +33,15 @@
     overflow: auto;
 }
 .txt04 {
-    vertical-align: text-bottom;
+    vertical-align: bottom;
 }
 .p-cont {
     text-align: center;
+    font-size: 2em;
 }
+
+.txt05 {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
