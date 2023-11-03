@@ -1,0 +1,19 @@
+.uppercase {
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+p.uppercase {
+    font-size: 3em;
+}
+
+.caps {
+    text-transform: capitalize;
+    background-color: cadetblue;
+    color: white;
+}
+
+div ~ p.caps {
+    background-color: gray;
+    font-size: larger;
+}
