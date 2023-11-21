@@ -1,0 +1,37 @@
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+p {
+    font-size: 2em;
+}
+
+p:hover {
+    font-size: 4em;
+    background-color: black;
+    color: aliceblue;
+}
+
+#login {
+    width: 200px;
+    height: 50px;
+    background-color: cadetblue;
+    color: white;
+    border: 1px solid black;
+    border-radius: 40%;
+}
+
+#login:active {
+    background-color: rgb(38, 73, 74);
+    color: white;
+}
+
+.ip:focus {
+    border: 1px solid orange;
+    outline: none; 
+    box-shadow: 5px 5px gray;
+}
+.ip:disabled {
+    background-color: black;
+}
