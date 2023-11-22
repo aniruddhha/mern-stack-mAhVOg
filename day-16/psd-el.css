@@ -1,0 +1,22 @@
+p::after {
+  content: 'abc';  
+}
+
+body > :nth-child(2)::before {
+    content: '✅';
+}
+
+p {
+    font-size: 3em;
+}
+p::selection {
+    background-color: yellow;
+    color: red;
+}
+h1::selection {
+    background-color: black;
+    color: white;
+}
+/* li::marker {
+    content: '👉';
+} */
