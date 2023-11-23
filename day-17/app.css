@@ -1,0 +1,31 @@
+p {
+    font-size: inherit;
+    border: inherit;
+}
+
+.mt-5 {
+    margin-top: 1em;
+
+}
+.text-red {
+    color: red;
+}
+
+.text-green {
+    color: green;
+    border: 1px solid blue;
+}
+
+.text-blue {
+    color: blue;
+}
+
+span {
+    color: black;
+    border: 1px solid black;
+}
+
+.text-green > span {
+    color: inherit;
+    border: 1px dotted yellow; 
+}

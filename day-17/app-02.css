@@ -1,0 +1,22 @@
+/* p {
+    background-color: yellow;
+} */
+/* p {
+    background-color: black;
+    color: white;
+} */
+
+.parent {
+    background-color: red;
+}
+
+.child {
+    /* color: inherit;  */
+    /* color: initial; */
+    /* color: unset; */
+
+    background-color: blue;
+}
+.xyz {
+    background-color: unset;
+}
