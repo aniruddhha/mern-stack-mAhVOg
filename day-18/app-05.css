@@ -1,0 +1,12 @@
+.stky {
+    position: sticky;
+    top: 0;
+    padding: 8px;
+    background-color: cadetblue;
+    color: black;
+    border: 2px solid black;
+}
+
+.cnt {
+    padding-bottom: 3000px;
+}
