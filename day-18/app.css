@@ -1,0 +1,12 @@
+#ttl {
+    color: blue;
+}
+
+.color-it {
+    color: red;
+}
+
+p {
+    color: yellow !important;
+}
+
