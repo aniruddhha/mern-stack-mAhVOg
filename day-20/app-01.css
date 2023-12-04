@@ -1,0 +1,27 @@
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    height: 80%;
+    background-color: beige;
+
+    display: flex;
+    /* flex-direction: row; */
+}
+
+.left-menu {
+    width: 20%;
+    height: 100%;
+    background-color: cadetblue;
+    /* float: left; */
+}
+
+.content {
+    width: 80%;
+    height: 100%;
+    background-color: chocolate;
+    /* float: right; */
+}
