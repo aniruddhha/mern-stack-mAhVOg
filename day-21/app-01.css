@@ -1,0 +1,24 @@
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    width: 20%;
+    height: 100%;
+    background-color: aquamarine;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+    /* align-items: center; */
+    align-content: space-between;
+}
+
+.box {
+    margin-left: 4px;
+    width: 20%;
+    height: 10%;
+    background-color: blueviolet;
+}

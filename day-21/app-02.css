@@ -1,0 +1,59 @@
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    width: 30%;
+    height: 10%;
+    background-color: azure;
+
+    display: flex;
+    align-items: stretch;
+}
+
+.large-title {
+    font-size: 3em;
+    color: white;
+    text-align: center;
+}
+
+.box-1 {
+    /* width: 100px; */
+    background-color: dodgerblue;
+    margin-left: 8px;
+    /* flex-grow: 1; */
+    flex: 1 0 300px;
+}
+.box-2 {
+    /* width: 100px; */
+    background-color: dodgerblue;
+    margin-left: 8px;
+    /* flex-grow: 1; */
+    /* flex-shrink: 6; */
+}
+
+.box-3 {
+    /* width: 100px; */
+    background-color: dodgerblue;
+    margin-left: 8px;
+    /* flex-grow: 1; */
+}
+
+.box-4 {
+    /* width: 100px; */
+    background-color: dodgerblue;
+    margin-left: 8px;
+
+    /* flex-basis: 300px; */
+    /* flex-grow: 1; */
+}
+
+.box-5 {
+    /* width: 100px; */
+    background-color: dodgerblue;
+    margin-left: 8px;
+
+    /* flex-basis: 300px; */
+    /* flex-grow: 1; */
+}
