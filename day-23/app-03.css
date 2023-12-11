@@ -1,0 +1,24 @@
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 8px;
+}
+
+section > div {
+    background-color: cadetblue;
+    font-size: 2em;
+}
+
+/* .item1 {
+    grid-column: 1 / span 2;
+} */
+
+.item1 {
+    grid-row: 1 / span 2;
+}
+
