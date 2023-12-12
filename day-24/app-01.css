@@ -1,0 +1,26 @@
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.item1 {
+    grid-area: cell1;
+}
+.item2 {
+    grid-area: cell2;
+}
+
+.grid-container {
+
+    display: grid;
+    gap: 8px;
+
+    grid-template-areas: 
+    "cell1 cell1 cell2 ."
+    "cell1 cell1 cell2 .";
+}
+
+section > div {
+    background-color: cadetblue;
+    font-size: 3em;
+}
