@@ -1,0 +1,23 @@
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+section {
+    height: 50%;
+    display: grid;
+    gap: 6px;
+
+    grid-template-columns: auto auto auto;
+
+    /* justify-content: center; */
+    /* align-items: center; */
+    align-content: space-between;
+
+}
+
+section > div {
+    background-color: cadetblue;
+    font-size: 2em;
+    border: 1px solid black;
+}

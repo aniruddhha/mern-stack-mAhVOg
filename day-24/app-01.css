@@ -12,6 +12,8 @@ html, body {
 
 .grid-container {
 
+    background-color: gainsboro;
+
     display: grid;
     gap: 8px;
 
