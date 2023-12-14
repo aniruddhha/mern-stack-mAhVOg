@@ -13,11 +13,11 @@ section {
 
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(8, 5vw);
+    grid-template-rows: repeat(8, auto);
     gap: 8px;
 
-    justify-content: center;
-    align-content: center;
+    /* justify-content: center; */
+    /* align-content: center; */
 }
 
 .grid-item-1 {
