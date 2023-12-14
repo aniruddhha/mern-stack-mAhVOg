@@ -1,0 +1,69 @@
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+figure {
+    margin: 0;
+}
+section {
+
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    gap: 8px;
+
+    justify-content: center;
+    align-content: center;
+}
+
+.grid-item-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: cadetblue;
+}
+
+.grid-item-2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: blueviolet;
+}
+
+.grid-item-3 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 6;
+    background-color: chocolate;
+}
+
+.grid-item-4 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    background-color: cornflowerblue;
+}
+
+.grid-item-5 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 9;
+    background-color: crimson;
+}
+
+.grid-item-6 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 6;
+    grid-row-end: 9;
+    background-color: steelblue;
+}
