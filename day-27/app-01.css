@@ -1,0 +1,35 @@
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.box {
+    width: 50%;
+    height: 50%;
+}
+
+.bg {
+    background-color: brown;
+}
+
+/* mobile device */
+@media screen and (max-width: 600px){
+    
+    .bg {
+        background-color: cadetblue;
+    }
+}
+
+/* tablets */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .bg {
+        background-color: chocolate;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .bg {
+        background-color: chartreuse;
+    }
+}
