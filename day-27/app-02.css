@@ -1,0 +1,34 @@
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+/* @media screen and (orientation: landscape) {
+    h1::before {
+        content: 'Mobile Landscape';
+    }
+}
+
+@media screen  and (orientation: portrait) {
+    h1::before {
+        content: 'Mobile Portrait';
+    }
+} */
+
+@media screen and (orientation: landscape) {
+    #lnd {
+        display: block;
+    }
+    #prt {
+        display: none;
+    }
+}
+
+@media screen  and (orientation: portrait) {
+    #lnd {
+        display: none;
+    }
+    #prt {
+        display: block;
+    }
+}
