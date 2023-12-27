@@ -1,0 +1,35 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+
+    position: relative;
+
+    animation: mvr 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes  mvr {
+    from { left: 0px }
+    to { left: 400px }
+}
+
+#bx1 {
+    animation-timing-function: linear;
+}
+
+#bx2 {
+    animation-timing-function: ease;
+}
+
+#bx3 {
+    animation-timing-function: ease-in;
+}
+
+#bx4 {
+    animation-timing-function: ease-out;
+}
+
+#bx5 {
+    animation-timing-function: ease-in-out;
+}
