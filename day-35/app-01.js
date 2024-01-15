@@ -13,3 +13,4 @@ console.log(ob1)
 var ob2 = null
 console.log(ob2)
 
+var num = NaN
