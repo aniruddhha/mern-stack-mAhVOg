@@ -3,3 +3,4 @@
     - nested loops   
 - Home work: try nested do while
 - Given a number, \(n\), and a range of numbers, you need to determine how many pairs of numbers within that range produce the sum equal to \(n\). For example, if \(n = 7\) and the range is from 1 to 10, possible pairs could include \(4 + 3 = 7\), \(6 + 1 = 7\), and \(5 + 2 = 7\).
+- break and continue
