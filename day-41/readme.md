@@ -7,4 +7,4 @@
     - splicing
 - Multidimensional Arrays
     - 1d, 2d and 3d
-- Create an array and convert rows in to coloumns and columns into rows
+- Create an array and convert rows into coloumns and columns into rows
