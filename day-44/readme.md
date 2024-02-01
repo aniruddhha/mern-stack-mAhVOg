@@ -1,0 +1,6 @@
+- Array Operations
+    - every
+    - some
+    - included
+    - join
+    - reduce
