@@ -2,3 +2,6 @@
     - understood basics
     - performed operations like delete, add, has, forEach
 - Map
+    - basics understanding
+    - performed operations like delete, add, has, forEach
+    - entries understanding
