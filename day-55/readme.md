@@ -1,0 +1,3 @@
+- Object Oriented Principles 
+    - Abstraction
+    - Polymorphism

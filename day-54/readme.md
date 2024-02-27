@@ -1,2 +1,3 @@
 - Object Oriented Principles 
     - Encapsulation
+    - Inheritance
