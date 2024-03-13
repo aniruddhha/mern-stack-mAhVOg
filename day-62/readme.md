@@ -1,2 +1,4 @@
 - Adding new elements
-- changing the styles
+- Removing Element
+- Adding the styles
+- Removing the styles
