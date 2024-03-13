@@ -1,5 +1,6 @@
 
 let isBig = false
+
 function btnClicked () {
 
     console.log('btn clicnekd')
@@ -14,3 +15,10 @@ function btnClicked () {
     if(isBig) pr.className = 'big'
     else pr.classList.remove('big')
 }
+
+const btnRmPara = () => {
+    const pr = document.getElementById('pr')
+
+    const mn = document.getElementById('mn')
+    mn.removeChild(mn.childNodes.item(3))
+}   
