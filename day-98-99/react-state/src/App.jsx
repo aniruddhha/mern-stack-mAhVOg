@@ -1,9 +1,25 @@
 import { useState } from "react"
 
 
+function Details({ amt } ) {
+ 
+  const [amount, setAmount] = useState(0)
+  return <></>
+} 
+
 function App() {
 
   const [cnt, setCnt] = useState(0)
+  const [cnt1, setCnt1] = useState(0)
+
+  const [filter, setFilter] = useState({
+    mobile: '',
+    billNo: '',
+    amount: 0,
+    date: '',
+    counter: 1,
+    cashier: ''
+  })
 
   console.log(`Called App`)
 
