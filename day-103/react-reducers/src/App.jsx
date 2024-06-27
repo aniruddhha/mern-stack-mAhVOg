@@ -55,7 +55,6 @@ function App() {
       task: task,
     });
   }
-
   function handleDeleteTask(taskId) {
     dispatch({
       type: 'deleted',
