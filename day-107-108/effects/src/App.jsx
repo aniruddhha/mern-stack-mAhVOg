@@ -1,4 +1,6 @@
 import { useState, useEffect, useRef } from "react"
+import { Details } from "./Details"
+import { Sizer } from "./Sizer"
 
 
 function MyVideoPlayer({ isPlaying, src }) {
@@ -35,6 +37,8 @@ function App({ abc }) {
 
   return (
     <>
+    <Sizer/>
+    <Details/>
     <div>
       <input type="button" value={isPlaying ? 'PAUSE' : 'PLAY'} onClick={ () => setIsPlaying(!isPlaying) } />
     </div>
