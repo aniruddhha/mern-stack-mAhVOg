@@ -29,6 +29,7 @@ function App() {
   const applyValidation = () => {
     console.log(`UsNm ${user.userName.length}`)
     console.log(`Pass ${user.password.length}`)
+
     if(user.userName.length > 4) {
       setValidation({ ...validation, isUserValid: true })
     } else {
@@ -47,7 +48,7 @@ function App() {
 
     applyValidation()
 
-    if(validation.isPasswordValid && validation.isUserValid)
+    if( validation.isUserValid && validation.isPasswordValid)
       console.log(user)
   }
 
