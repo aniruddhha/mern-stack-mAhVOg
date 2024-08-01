@@ -1,5 +1,9 @@
 import { useEffect, useState } from 'react'
+import axios from 'axios'
 
+const httpAx = axios.create({
+  baseURL: 'https://jsonplaceholder.typicode.com/'
+})
 
 function Post({ userId, id, title, body }) {
   return (
@@ -17,15 +21,44 @@ function App() {
   const [posts, setPosts] = useState([])
   const [post, setPost] = useState({ userId: 0, title: '', body: '' })
 
+  // useEffect(() => {
+
+  //   fetch('https://jsonplaceholder.typicode.com/posts')
+  //   .then( response => response.json())
+  //   .then( body => setPosts(body) )
+  //   .catch(e => console.log(e))
+
+  // }, [])
+
+  //axios
+
   useEffect(() => {
 
-    fetch('https://jsonplaceholder.typicode.com/posts')
-    .then( response => response.json())
-    .then( body => setPosts(body) )
+    // axios.get('https://jsonplaceholder.typicode.com/posts')
+    // .then(
+    //   res => res.data
+    // )
+    // .then(obj => setPosts(obj))
+    // .catch(e => console.log(e))
+
+    httpAx.get('posts')
+    .then(
+      res => res.data
+    )
+    .then(obj => setPosts(obj))
     .catch(e => console.log(e))
+    
+
+    // axios.post()
+
+    // axios.delete()
+
+    // axios.put()
 
   }, [])
 
+
+  
   const handleSubmit = (e) => {
     e.preventDefault()
 
