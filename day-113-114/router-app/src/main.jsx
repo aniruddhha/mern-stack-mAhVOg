@@ -7,6 +7,8 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import { Mobile } from './Mobile.jsx';
+import { Car } from './Car.jsx';
+import { HybridCar } from './HybridCar.jsx';
 
 const router = createBrowserRouter([
   {
@@ -15,7 +17,21 @@ const router = createBrowserRouter([
   },
   {
     path:'/car',
-    element: <h1> This is Car </h1>
+    element: <Car/>,
+    children : [
+      {
+        path:'automatic',
+        element: <h1>Automatic Car</h1>
+      },
+      {
+        path:'manual',
+        element: <h1>Manual Car</h1>
+      },
+      {
+        path:'hybrid/:carId',
+        element: <HybridCar/>
+      },
+    ]
   },
   {
     path:'/mobile',
