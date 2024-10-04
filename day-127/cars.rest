@@ -1,0 +1,27 @@
+GET http://localhost:3000/car
+
+###
+
+POST http://localhost:3000/car
+Content-Type: application/json
+
+{
+    "id": 100,
+    "make": "Tata",
+    "model": "Altroz",
+    "year": "2020"
+}
+
+###
+
+DELETE http://localhost:3000/car/100
+
+###
+
+PUT http://localhost:3000/car/100
+
+{
+    "make": "aaa",
+    "model": "bbb",
+    "year" :"1990"
+}
