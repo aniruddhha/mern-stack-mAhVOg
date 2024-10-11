@@ -1,0 +1,12 @@
+POST http://localhost:3000/login 
+Content-Type: application/json
+
+{
+    "usNm" : "abc",
+    "pass" : "pass123"
+}
+
+###
+
+GET http://localhost:3000/app/data
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c05tIjoiYWJjIiwiaWF0IjoxNzI4NjUwODUwLCJleHAiOjE3Mjg2NTQ0NTB9.KLGXuL4Pe-CLgYfaDNoSm7jxovyX-d_AI8uAsJtujOM
