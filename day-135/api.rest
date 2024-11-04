@@ -1,0 +1,16 @@
+POST http://localhost:3000/create
+Content-Type: application/json
+
+{
+    "firstName" : "zzz",
+    "lastName": "xxx",
+    "email": "zzz.xxx@gmail.com",
+    "gender": "Male",
+    "doj": "2020-01-01",
+    "department": "HR",
+    "salary": 345000
+}
+
+###
+
+GET http://localhost:3000/retrieve
